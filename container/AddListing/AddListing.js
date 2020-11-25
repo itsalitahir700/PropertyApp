@@ -223,7 +223,7 @@ const Addlisting = () => {
           </Select>
         </Form.Item>
         <Form.Item label="Select Location">
-          <Select value={location} onChange={(e) => setCity(e)}>
+          <Select value={location} onChange={(e) => setLocation(e)}>
             {locationslist && locationslist.length !== 0
               ? locationslist.map((item, index) => {
                   return (
