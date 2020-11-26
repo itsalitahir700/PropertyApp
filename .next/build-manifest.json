@@ -28,11 +28,6 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/add-hotel.js"
-    ],
-    "/listing": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/listing.js"
     ]
   },
   "ampFirstPages": []

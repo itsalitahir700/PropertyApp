@@ -24,3 +24,12 @@ export const LISTING_PAGE_COLUMN_WIDTH_WITH_MAP = [
   1 / 2,
   1 / 3,
 ];
+
+let baseURL =
+  "http://ec2-13-229-109-204.ap-southeast-1.compute.amazonaws.com:8080/apna/v1";
+let username = "apna";
+let password = "apnaghar1234";
+let credentials = Buffer.from(username + ":" + password).toString("base64");
+let basicAuth = "Basic " + credentials;
+
+export { baseURL, basicAuth };
