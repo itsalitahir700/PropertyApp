@@ -1,6 +1,16 @@
 {
+  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
-  "/add-hotel": "pages/add-hotel.js"
+  "/account-settings": "pages/account-settings.js",
+  "/add-hotel": "pages/add-hotel.html",
+  "/forget-password": "pages/forget-password.html",
+  "/": "pages/index.js",
+  "/listing": "pages/listing.js",
+  "/post/[slug]": "pages/post/[slug].js",
+  "/pricing-plan": "pages/pricing-plan.html",
+  "/profile": "pages/profile.js",
+  "/sign-in": "pages/sign-in.html",
+  "/sign-up": "pages/sign-up.html",
+  "/_error": "pages/_error.js"
 }
