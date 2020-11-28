@@ -1,0 +1,1 @@
+{"ast":null,"code":"const id = '';\n\nconst activitiesReducer = (state = id, action) => {\n  const {\n    type,\n    payload\n  } = action;\n\n  switch (type) {\n    case 'CREATE_ACTIVITY':\n      const newid = payload.id;\n      return newid;\n\n    default:\n      return state;\n  }\n};\n\nexport default activitiesReducer;","map":null,"metadata":{},"sourceType":"module"}
